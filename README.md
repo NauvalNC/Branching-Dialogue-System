@@ -4,9 +4,9 @@ can read dialogues, response to the dialogue, and also view which path they end 
 I replicate the UI and UX from a game called **Blue Archive** since I love how they execute the design. The codes and implementations I wrote myself.
 # Installation
 * Clone this project
-* Open the project with Unity 2020.3.01f or higher.
-* Use URP Pipeline for your project.
-* Make sure you have URP TextMeshPro installed.
+* Open the project with **Unity 2020.3.20f1** or higher.
+* Use **URP Pipeline** for your project.
+* Make sure you have **TextMeshPro** installed.
 # Assets Usage
 * I use avaialble assets from game called **Blue Archive** found on its [Blue Archive Wiki](https://bluearchive.fandom.com/wiki/Blue_Archive_Wiki)
 * Background music is available from [Wow Sound](https://wowsound.com/royalty-free-music-for-visual-novel.aspx)
