@@ -13,6 +13,7 @@ I replicate the UI and UX from a game called **Blue Archive** since I love how t
 # Game Features
 * Branching dialogue tree.
 * Normal and Fast mode for dialogue speed.
+* Auto mode for dialogue so players doesn't have to click/tap to switch dialogue each time.
 * Animated reaction of avatars in the dialogue.
 * Multiple choice selection to answer certain dialogue which can lead to different endings.
 # Game Previews
