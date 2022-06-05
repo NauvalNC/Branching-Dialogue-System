@@ -1,0 +1,119 @@
+{
+    "ID": 0,
+    "dialogues": [
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 1,
+            "sentence": "So here is our first stop. The most important part of you high school life.",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Yes, exactly. The convenience store.",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Here you can buy snacks, drinks, and more. And by the way did I mention that you can use your school card?",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "In Katlon High, each student will be given a Katlon High Student Card or KHSC for short. You can buy anything in this city using this card with student discount.",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "If you want to recharge it, you can visit convenience store for top up.",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 5,
+            "speakerAnim": 0,
+            "sentence": "Card? What card? I don’t have them.",
+            "branches": [],
+            "group": [
+                "shiroko",
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Well, that’s true since you are new student. You will get them once you are at school.",
+            "branches": [],
+            "group": [
+                "shiroko",
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 1,
+            "speakerAnim": 0,
+            "sentence": "But for now, I’ll treat you guys a snack.",
+            "branches": [
+                {
+                    "sentence": "Thank you very much…",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "shiroko",
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Yeah! Thank you! I am glad I met a nice senpai as you.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "No problem. Let’s go, choose any snack you like!",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        }
+    ],
+    "mergePointID": -1
+}

@@ -1,0 +1,280 @@
+{
+    "ID": 0,
+    "dialogues": [
+        {
+            "charAddressKey": "me",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "(It is my first day of my Katlon Highschool life.)",
+            "branches": [],
+            "group": [
+                "me"
+            ]
+        },
+        {
+            "charAddressKey": "me",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "(Yet I lost in the middle of nowhere. I am pretty sure my GPS work perfectly, but why I didn’t charge my phone last night.)",
+            "branches": [],
+            "group": [
+                "me"
+            ]
+        },
+        {
+            "charAddressKey": "me",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "(Silly me...)",
+            "branches": [],
+            "group": [
+                "me"
+            ]
+        },
+        {
+            "charAddressKey": "me",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "(Ahh…. What should I do. I just came to this city several hours ago by bus.)",
+            "branches": [],
+            "group": [
+                "me"
+            ]
+        },
+        {
+            "charAddressKey": "me",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "(I should ask someone, but I am too introvert for that…)",
+            "branches": [],
+            "group": [
+                "me"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Hi! I just feel like to asking this. But are you a new student?",
+            "branches": [
+                {
+                    "sentence": "Umm.. yes, I just came here.",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Oh, so that’s true. I identify it from your school badge. I am in the same school as you are too.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 2,
+            "speakerAnim": 2,
+            "sentence": "The thing is, I want to ask you if you know the direction to school. I am just move in several hours ago, hehe.",
+            "branches": [
+                {
+                    "sentence": "Umm… well that’s my problem too.",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 2,
+            "speakerAnim": 0,
+            "sentence": "You lost too! Well, it can’t be helped since we are new here.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 0,
+            "sentence": "Anyway my name is Hifumi. Nice to meet you.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 1,
+            "sentence": "Hi guys! Are you new student here? I am part of student council of Katlon High. My name is Shiroko, I can guide you to the school.",
+            "branches": [],
+            "group": [
+                "hifumi",
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Oh my God, seems like we got lucky. Sure and yes, we are in your care.",
+            "branches": [],
+            "group": [
+                "hifumi",
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Sure, no problem at all. Since you guys new here, would you like to take a walk a bit. I can introduce you some places here!",
+            "branches": [],
+            "group": [
+                "hifumi",
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Oh that’s nice of you. How about you emm…?",
+            "branches": [
+                {
+                    "sentence": "Oh, my name is Player.",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 2,
+            "sentence": "Haha, my apologize. I forgot to ask for your name. So how about we go stroll a bit?",
+            "branches": [
+                {
+                    "sentence": "Sure, why not.",
+                    "nextStory": {
+                        "ID": 2,
+                        "dialogues": [
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 1,
+                                "speakerAnim": 1,
+                                "sentence": "Great, then Shiroko-senpai, please guide us!",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "shiroko",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Okay, let’s go guys!",
+                                "branches": [],
+                                "group": [
+                                    "shiroko"
+                                ]
+                            }
+                        ],
+                        "mergePointID": -1
+                    },
+                    "chosenBranchIndex": 0
+                },
+                {
+                    "sentence": "Umm.. it is our first day, we should go to school first",
+                    "nextStory": {
+                        "ID": 3,
+                        "dialogues": [
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Well that’s actually true, maybe we can go stroll after school.",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Thank you for the offer Shiroko-senpai, but I think we should go to school first.",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "shiroko",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "No problem. But I might be busy after school, so I’ll give you map so you guys can go for yourself. Here.",
+                                "branches": [],
+                                "group": [
+                                    "shiroko"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Thank you very much.",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "shiroko",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Okay then, let’s go to school.",
+                                "branches": [],
+                                "group": [
+                                    "shiroko"
+                                ]
+                            }
+                        ],
+                        "mergePointID": -1
+                    },
+                    "chosenBranchIndex": 1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        }
+    ],
+    "mergePointID": -1
+}

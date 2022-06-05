@@ -1,0 +1,178 @@
+{
+    "ID": 0,
+    "dialogues": [
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 1,
+            "sentence": "Here new students! Welcome to Katlon High School! We will have an opening ceremony at hall at 7 A.M. So please be there on time!",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Thank you for guiding us!",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "No problem. I’ll leave you guys here. You can find your classroom by looking at info wall there.",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "shiroko",
+            "speakerExp": 0,
+            "speakerAnim": 2,
+            "sentence": "I need to attend student council now. See you guys later!",
+            "branches": [],
+            "group": [
+                "shiroko"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Bye, thank you again for guiding us!",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "By the way, what class are you in?",
+            "branches": [
+                {
+                    "sentence": "It is LA04 - LEC",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 1,
+                                "speakerAnim": 1,
+                                "sentence": "Okay, let’s go!",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            }
+                        ],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "Oh, I am in the same class. What a coincidence!",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Let me look where is our class at information wall.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 2,
+            "sentence": "Hmm... ohhh... understood...",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Okay, I know the direction. Should we go to our class now?",
+            "branches": [
+                {
+                    "sentence": "Sure, let’s go!",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 1,
+                                "speakerAnim": 1,
+                                "sentence": "Okay, let’s go!",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            }
+                        ],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": 0
+                },
+                {
+                    "sentence": "I think we should take a stroll",
+                    "nextStory": {
+                        "ID": 2,
+                        "dialogues": [
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 0,
+                                "speakerAnim": 0,
+                                "sentence": "Well, since we got here early, I guess why not.",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            },
+                            {
+                                "charAddressKey": "hifumi",
+                                "speakerExp": 1,
+                                "speakerAnim": 1,
+                                "sentence": "Let’s go for stroll a bit.",
+                                "branches": [],
+                                "group": [
+                                    "hifumi"
+                                ]
+                            }
+                        ],
+                        "mergePointID": -1
+                    },
+                    "chosenBranchIndex": 1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        }
+    ],
+    "mergePointID": -1
+}

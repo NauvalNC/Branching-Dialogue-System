@@ -1,0 +1,14 @@
+This dialogue system tool is developed by:
+1. Nauval Muhammad Firdaus - 2301906331
+2. Kenzie Castello Tiopan - 2301859051
+3. Vincent Thorian - 2301886424
+4. Stevanno Andrew Irawan - 2301861005
+5. Javin Rionardi - 2301872942
+6. Verdian Krishnanda Tjoa - 2301877804
+
+Class: LA04-LEC
+Course: Game Tools Development (GAME6073001)
+
+Third-party Credits:
+BGM and SFX: https://wowsound.com/free-music-and-sfx-for-games
+Image assets (char, background, etc): https://bluearchive.fandom.com/wiki/Blue_Archive_Wiki

@@ -1,0 +1,60 @@
+{
+    "packAddressKey": "the_encounter",
+    "ID": 0,
+    "mergePointID": -1,
+    "status": 2,
+    "isCurrentPackage": true,
+    "branches": [
+        {
+            "packAddressKey": "the_neighborhood",
+            "ID": 4,
+            "mergePointID": -1,
+            "status": 0,
+            "isCurrentPackage": false,
+            "branches": [
+                {
+                    "packAddressKey": "convenience_store",
+                    "ID": 1,
+                    "mergePointID": -1,
+                    "status": 0,
+                    "isCurrentPackage": false,
+                    "branches": []
+                }
+            ]
+        },
+        {
+            "packAddressKey": "my_new_school",
+            "ID": 5,
+            "mergePointID": -1,
+            "status": 0,
+            "isCurrentPackage": false,
+            "branches": [
+                {
+                    "packAddressKey": "new_school_memory",
+                    "ID": 2,
+                    "mergePointID": -1,
+                    "status": 0,
+                    "isCurrentPackage": false,
+                    "branches": []
+                },
+                {
+                    "packAddressKey": "school_stroll",
+                    "ID": 6,
+                    "mergePointID": -1,
+                    "status": 0,
+                    "isCurrentPackage": false,
+                    "branches": [
+                        {
+                            "packAddressKey": "the_president",
+                            "ID": 3,
+                            "mergePointID": -1,
+                            "status": 0,
+                            "isCurrentPackage": false,
+                            "branches": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

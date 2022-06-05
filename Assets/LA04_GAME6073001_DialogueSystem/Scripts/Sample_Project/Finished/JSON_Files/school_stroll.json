@@ -1,0 +1,198 @@
+{
+    "ID": 0,
+    "dialogues": [
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 1,
+            "sentence": "This school looks so nice. It’s clean and tidy.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 1,
+            "speakerAnim": 0,
+            "sentence": "The corridor is so wide. Feels like I want to run from here there and back.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 2,
+            "sentence": "Hehe but of course that’s not allowed, isn’t it?",
+            "branches": [
+                {
+                    "sentence": "Hifumi, look forward while you are walking!",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 4,
+            "speakerAnim": 2,
+            "sentence": "Ouch…!!",
+            "branches": [],
+            "group": [
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 4,
+            "speakerAnim": 1,
+            "sentence": "Ouch… Did I bump to something!?",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 3,
+            "speakerAnim": 1,
+            "sentence": "Not something you silly! I am Hoshino, the student council president!!!",
+            "branches": [],
+            "group": [
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 5,
+            "speakerAnim": 2,
+            "sentence": "Waa… I am very sorry Ms. President! Umm.. Ms. President-chan?",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 3,
+            "speakerAnim": 1,
+            "sentence": "Who are you calling -chan!",
+            "branches": [],
+            "group": [
+                "hifumi",
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 4,
+            "speakerAnim": 2,
+            "sentence": "I am very sorry, I apologize mam!",
+            "branches": [],
+            "group": [
+                "hifumi",
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 3,
+            "speakerAnim": 0,
+            "sentence": "Jeez, new students right now have no respects.",
+            "branches": [
+                {
+                    "sentence": "I apologize for my friend rudeness.",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 3,
+            "speakerAnim": 0,
+            "sentence": "Well, forget it. You should go to hall now. The ceremony will start soon.",
+            "branches": [],
+            "group": [
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hoshino",
+            "speakerExp": 3,
+            "speakerAnim": 1,
+            "sentence": "Well then, give me a room to walk!",
+            "branches": [
+                {
+                    "sentence": "Umm.. yes sure.",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hoshino"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 3,
+            "speakerAnim": 1,
+            "sentence": "Jeez, she is completely different compared to Shiroko-senpai.",
+            "branches": [
+                {
+                    "sentence": "Sheesh.. she might hear you!",
+                    "nextStory": {
+                        "ID": 1,
+                        "dialogues": [],
+                        "mergePointID": 0
+                    },
+                    "chosenBranchIndex": -1
+                }
+            ],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 4,
+            "speakerAnim": 1,
+            "sentence": "Ooops…",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        },
+        {
+            "charAddressKey": "hifumi",
+            "speakerExp": 0,
+            "speakerAnim": 0,
+            "sentence": "Anyway, we should go to hall now.",
+            "branches": [],
+            "group": [
+                "hifumi"
+            ]
+        }
+    ],
+    "mergePointID": -1
+}
