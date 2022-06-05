@@ -8,5 +8,5 @@ can read dialogues, response to the dialogue, and also view which path they end 
 # Assets Usage
 * I use avaialble assets from game called **Blue Archive** found on its [Blue Archive Wiki](https://bluearchive.fandom.com/wiki/Blue_Archive_Wiki)
 * Background music is available from [Wow Sound](https://wowsound.com/royalty-free-music-for-visual-novel.aspx)
-* All-rights goes for respective owner.
+* All-rights go to respective owner.
 # Game Previews
